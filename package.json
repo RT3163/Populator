@@ -1,0 +1,27 @@
+{
+  "name": "usaf-populatron-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gSchool/usaf-populatron-javascript.git"
+  },
+  "author": "RachelKoldenhoven <rachel@koldenfrozen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "latest"
+  },
+  "scripts": {
+    "start": "node index.js ./data/worldcitiespop.csv",
+    "test": "jest"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/gSchool/usaf-populatron-javascript/issues"
+  },
+  "homepage": "https://github.com/gSchool/usaf-populatron-javascript#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
+}
